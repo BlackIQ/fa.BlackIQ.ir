@@ -552,6 +552,22 @@
             <a class="red" href="https://github.com/BlackIQ/BlackIQ.ir">Go to repository</a>
         </div>
     </div>
-    <script src="static/script.js"></script>
+    <script>
+        function toggle() {
+            var btn = document.getElementById("mode");
+            if (btn.value == "dark") {
+                document.getElementById("all").classList.remove('dark');
+                document.getElementById("all").classList.add('light');
+                btn.value = "light";
+                btn.innerHTML = 'رفتن به <i class="fa fa-moon"></i> مود';
+            }
+            else {
+                document.getElementById("all").classList.remove('light');
+                document.getElementById("all").classList.add('dark');
+                btn.value = "dark";
+                btn.innerHTML = 'رفتن به <i class="fa fa-sun"></i> مود';
+            }
+        }
+    </script>
 </body>
 </html>
