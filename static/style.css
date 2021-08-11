@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 
 #all {
     direction: rtl;
@@ -8,7 +9,7 @@
 }
 
 .light .main {
-    font-family: 'Harmattan', sans-serif;
+    font-family: 'Lalezar', sans-serif;
     padding: 10%;
     color: black;
     background: white;
@@ -45,7 +46,7 @@
 
 
 .dark .main {
-    font-family: 'Harmattan', sans-serif;
+    font-family: 'Lalezar', sans-serif;
     background: #313131;
     padding: 10%;
     color: white;
