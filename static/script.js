@@ -4,12 +4,12 @@ function toggle() {
         document.getElementById("all").classList.remove('dark');
         document.getElementById("all").classList.add('light');
         btn.value = "light";
-        btn.innerHTML = 'Toggle to <i class="fa fa-moon"></i> mode';
+        btn.innerHTML = 'رفتن به <i class="fa fa-moon"></i> مود';
     }
     else {
         document.getElementById("all").classList.remove('light');
         document.getElementById("all").classList.add('dark');
         btn.value = "dark";
-        btn.innerHTML = 'Toggle to <i class="fa fa-sun"></i> mode';
+        btn.innerHTML = 'رفتن به <i class="fa fa-sun"></i> مود';
     }
 }
