@@ -1,15 +1,20 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap'); */
+
+@font-face {
+    font-family: vazir;
+    src: url("./vazir/Vazir.ttf");
+}
 
 #all {
     direction: rtl;
 }
 * {
     text-align: right;
+    font-family: vazir, serif;
 }
 
 .light .main {
-    font-family: 'Lalezar', sans-serif;
     padding: 10%;
     color: black;
     background: white;
