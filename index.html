@@ -22,8 +22,64 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/4a679d8ec0.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.blackiq.ir/fa.BlackIQ.ir/css/main.css" rel="stylesheet" type="text/css">
+<!--    <link href="https://cdn.blackiq.ir/fa.BlackIQ.ir/css/main.css" rel="stylesheet" type="text/css">-->
 <!--    <link href="main.css" rel="stylesheet" type="text/css">-->
+
+    <style>
+        @font-face {
+            font-family: vazir;
+            src: url("https://cdn.blackiq.ir/fa.BlackIQ.ir/font/vazir/Vazir.ttf");
+        }
+
+        .all .title {
+            color: #bb86fc;
+            font-weight: bold;
+        }
+
+        @media (prefers-color-scheme: light) {
+            .all {
+                text-align: right;
+                direction: rtl;
+                background: #f1f1f1;
+                color: black;
+                font-size: 90%;
+            }
+            .all .main {
+                font-family: vazir, sans-serif;
+                padding: 10%;
+            }
+            .all .link {
+                text-decoration: none;
+                color: navy;
+            }
+            .all .links a {
+                text-decoration: none;
+                color: navy;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .all {
+                text-align: right;
+                direction: rtl;
+                background: #313131;
+                color: white;
+                font-size: 90%;
+            }
+            .all .main {
+                font-family: vazir, sans-serif;
+                padding: 10%;
+            }
+            .all .link {
+                text-decoration: none;
+                color: aqua;
+            }
+            .all .links a {
+                text-decoration: none;
+                color: aqua;
+            }
+        }
+    </style>
 
     <script type="text/javascript">
         (function(){
